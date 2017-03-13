@@ -1,0 +1,18 @@
+#search_box {
+	/*width: 50%;
+	display: inline-block;*/
+}
+
+form {
+	display: inline;
+}
+
+input[type=text] {
+	width: 70%;
+	height: 10%;
+}
+
+#little_mic {
+	/*display: inline;*/
+	width: 5%;
+}
