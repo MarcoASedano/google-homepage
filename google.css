@@ -49,8 +49,9 @@ input {
 	width: 90%;
 	height: 90%;
 	float: left;
+    padding-top: 1.2px;
 	padding-left: 12px;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 #input_box {
