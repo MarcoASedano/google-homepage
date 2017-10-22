@@ -23,6 +23,15 @@ li {
 	color: black;
 }
 
+#complete_google_search {
+	text-align: center;
+}
+
+#google_logo, #search_box, #search_buttons {
+	width: 50%;
+	margin: 0 auto;
+}
+
 #search_box {
 	border: 1px solid #d9d9d9;
 	width: 428px;
@@ -30,17 +39,18 @@ li {
 	background-image: url(images/mic.png);
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 10%;
-	/*width: 50%;
-	display: inline-block;*/
+	background-size: 9%;
 }
 
 
 input {
 	border: none;
+	outline: none;
 	width: 90%;
 	height: 90%;
 	float: left;
+	padding-left: 12px;
+	font-size: 1em;
 }
 
 #input_box {
@@ -48,7 +58,7 @@ input {
 }
 
 #search_buttons {
-	padding-top: 30px;
+	padding-top: 15px;
 }
 
 button {
